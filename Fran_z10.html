@@ -27,5 +27,24 @@ Każda deklaracja składa się z:<br>
     <u>Średnik na końcu deklaracji nie jest konieczny.</u><br>
     <br>
     Każda grupa elementów (znaczników np. &lt;body&gt; &lt;p&gt; &lt;b&gt;) ma określony zespół cech CSS,<br> które można jej przypisać.
+    Każda cecha ma ściśle wyszczególnioną listę wartości, które może przyjąć.<br>
+    Na przykład: cecha text-align (wyrównanie tekstu) może być przypisana tylko i wyłącznie do<br> elementów blokowych, ponieważ podanie jej dla elementów wyświetlanych w linii nie<br>
+    miałoby sensu. Z drugiej strony cecha ta może przyjmować tylko wartości takie jak: left,<br> right, center, justify. Przypisanie do niej np. wartości koloru nie miałoby sensu.<br>
+    <br>
+    <u>Przykład1:</u><br>
+    <br>
+    <i>p { color: red; }</i>
+    <br>
+    <u>selektorem</u> jest znacznik p,<br>
+    <u>deklaracja</u> ma postać { color: red }.<br>
+    <u>cechą</u> jest color,<br>
+    <u>wartością</u> red.<br>
+    <br><br>
+    <u>Przykład2:</u><br>
+    <br>
+    <i>p b { color: red; background-color: yellow }</i>
+    <br><br>
+    <u>Selektorem</u> jest zestawienie znaczników p b.<br>
+    <u>Deklaracja</u> zawiera dwa zespoły cecha-wartość.<br>
 </body>
 </html>
