@@ -1,27 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- <!-- Adrian Franek 2G gr.2 22.01.2025 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-  <ol type="1">
-    <li> <h1>Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego</h1></li>
-    <font face="Arial"><b>Styl lokalny</b> pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany. O tym, który to będzie element, decyduje słowo kluczowe "selektor". <br></font>
-    <li> <h2>Składnia teoretyczna</h2></li>
-   <textarea rows="20" cols="10">
-    <selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
-   </textarea> <br>
-   <font face="Arial">lub inaczej</font> <br>
-   <textarea rows="20" cols="10">
-    <selektor style="nasze style">treść bloku</selektor>
-   </textarea>
-    <li> <h3>Co może być selektorem</h3></li>
-    <font face="Arial"><b>Selektorem</b> może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td (komórka tabeli) i inne. To właśnie elementom znajdującym się pomiędzy tymi znacznikami, nadajemy atrybuty formatowania. <br></font>
-    <li> <h4>Co wipisujemy jako "cechę". Jakie jest znaczenie średników</h4></li>
-    <font face="Arial">Jako <b>"cecha"</b> czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color). Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami. <br></font>
-    <li> <h5>Co wipisujemy jako "wartość" (w deklaracji stylu).</h5></li>
-    <font face="Arial">Jako wyraz <b>"wartość"</b> (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po której stoi w deklaracji. <br></font>
-  </ol>
- </body>
+    <h1>Budowa stylu→selektory</h1>
+    <b>Selektory są elementami arkusza CSS.</b><br>
+    <textarea rows="3" cols="60">
+selektor {cecha: wartość; cecha: wartość; …..;}
+    </textarea>
+    <ul>Każda reguła odnosi się do konkretnego elementu (znacznika) i składa się z dwóch części:
+      <il>selektora</il>
+      <il>deklaracji.</il>
+    </ul>
+    <b>Selektor</b> określa do jakich elementów ma zostać przypisane formatowanie. np. p h1<br>
+    <b>Deklaracja</b> jest umieszczona w nawiasie klamrowym {...} i podaje to formatowanie.<br>
+    <ul>Każda deklaracja składa się z:
+      <il>przynajmniej z jednego zespołu cecha lub inaczej własność albo właściwość (ang. property)</il>
+      <il><b>wartość</b> (ang. value), przy czym można podać dowolną liczbę, rozdzielając kolejne znakiem średnika (;).</il>
+    </ul>
+    <u>Średnik na końcu deklaracji nie jest konieczny.</u><br>
+    <br>
+    Każda grupa elementów (znaczników np. &lt;body&gt; &lt;p&gt; &lt;b&gt;) ma określony zespół cech CSS,<br> które można jej przypisać.
+</body>
 </html>
