@@ -59,7 +59,21 @@
       Opis:<br> Znacznik &lt;span&gt;...&lt;/span&gt; pozwala na objęcie pewnego większego fragmentu dokumentu. <br> Pojedynczym znacznikiem &lt;span&gt;...&lt;/span&gt; możemy objąć kilka różnych elementów, które <br> są wyświetlane w linii (sam element SPAN tak właśnie jest wyświetlany), np. wytłuszczenie <br> 
 tekstu oraz kursywę. Element ten tak dobrze nadaje się do osadzania stylów, ponieważ sam w <br> sobie nie ma określonego żadnego formatowania, które mogłoby kolidować z efektem, jaki <br> chcemy uzyskać. 
       <h1> <li>Różnica między znacznikami DIV  i  SPAN.</li></h1>
+      Obydwa elementy służą jedynie do <u>wyodrębniania części struktury dokumentu</u>, aby docelowo na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony. <br>
+      <br>
+      <b><u>Span'em</u></b> wyodrębniamy <b>elementy liniowe</b> (najczęściej fragmenty tekstu) a <b><u>divem</u> blokowe</b> (blokowe elementy, większe fragmenty struktury składające się na układ strony) <br>
+      <br>
+      Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii. 
       <h1> <li>Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.</li></h1>
+      <h3>Rodzaje elementów/tagów ze względu na sposób wyświetlania w przeglądarce.</h3>
+      <ol>
+          <li>liniowe – &lt;span&gt;, &lt;em&gt;, &lt;strong&gt;</li>
+          <li>blokowe – &lt;div&gt;, &lt;p&gt;, &lt;article&gt;</li>
+          <li>liniowo-blokowe – &lt;input&gt;, &lt;textarea&gt; </li>
+      </ol>
+      <b><u>Elementy liniowe</u></b> nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w <br> jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na <br> "inline". <br>
+      <b><u>Elementy blokowe</u></b> z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod <br> drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym <br> przeglądarka ustawia właściwość "display" na "block", <br>
+      Elementy liniowo-blokowe z kolei będą zachowywać się jak liniowe, jeśli chodzi o <br> położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że <br> możesz nadać im różne wielkości. Ma to sens, np. &lt;textarea&gt; wyświetla się jako duży <br> prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu. Domyślnie, elementom <br> liniowo blokowym przeglądarka ustawia właściwość "display"  na "inline-block". <br> 
   </ol>
  </body>
 </html>
