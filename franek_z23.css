@@ -1,0 +1,39 @@
+p#pogrubienie_franek {
+  font-size: 31px; 
+  color: #b642c9;   
+  font-weight: bold;
+}
+
+p#pochylona_franek {
+  font-size: 36pt;  
+  color: #ffb296;   
+  font-style: italic;
+}
+
+p#index_gorny_franek {
+  font-size: 1.1cm; 
+  color: #b0641d;    
+  vertical-align: super;
+}
+
+p#index_dolny_franek {
+  font-size: 1.7cm;  
+  color: rgb(72%, 244%, 229%); 
+  vertical-align: sub;
+}
+
+p#mono_franek {
+  font-size: 41px; 
+  color: #2fdc63;  
+  font-family: monospace;
+}
+
+p#powiekszenie_franek {
+  color: #6094eb; 
+  font-size: 50px; 
+}
+
+p#pomniejszenie_franek {
+  color: rgb(202%, 164%, 59%); 
+  font-size: 10px; 
+}
